@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEA1666153B26C10071869E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA1665153B26C10071869E /* UIKit.framework */; };
+		0FEA1668153B26C10071869E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA1667153B26C10071869E /* Foundation.framework */; };
+		0FEA166A153B26C10071869E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA1669153B26C10071869E /* CoreGraphics.framework */; };
+		0FEA1670153B26C10071869E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA166E153B26C10071869E /* InfoPlist.strings */; };
+		0FEA1672153B26C10071869E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA1671153B26C10071869E /* main.m */; };
+		0FEA1676153B26C10071869E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA1675153B26C10071869E /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FEA1661153B26C10071869E /* Tere maailm!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tere maailm!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA1665153B26C10071869E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FEA1667153B26C10071869E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FEA1669153B26C10071869E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FEA166D153B26C10071869E /* Tere maailm!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tere maailm!-Info.plist"; sourceTree = "<group>"; };
+		0FEA166F153B26C10071869E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FEA1671153B26C10071869E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FEA1673153B26C10071869E /* Tere maailm!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tere maailm!-Prefix.pch"; sourceTree = "<group>"; };
+		0FEA1674153B26C10071869E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FEA1675153B26C10071869E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEA165E153B26C10071869E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA1666153B26C10071869E /* UIKit.framework in Frameworks */,
+				0FEA1668153B26C10071869E /* Foundation.framework in Frameworks */,
+				0FEA166A153B26C10071869E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEA1656153B26C10071869E = {
+			isa = PBXGroup;
+			children = (
+				0FEA166B153B26C10071869E /* Tere maailm! */,
+				0FEA1664153B26C10071869E /* Frameworks */,
+				0FEA1662153B26C10071869E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FEA1662153B26C10071869E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA1661153B26C10071869E /* Tere maailm!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FEA1664153B26C10071869E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA1665153B26C10071869E /* UIKit.framework */,
+				0FEA1667153B26C10071869E /* Foundation.framework */,
+				0FEA1669153B26C10071869E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FEA166B153B26C10071869E /* Tere maailm! */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA1674153B26C10071869E /* AppDelegate.h */,
+				0FEA1675153B26C10071869E /* AppDelegate.m */,
+				0FEA166C153B26C10071869E /* Supporting Files */,
+			);
+			path = "Tere maailm!";
+			sourceTree = "<group>";
+		};
+		0FEA166C153B26C10071869E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA166D153B26C10071869E /* Tere maailm!-Info.plist */,
+				0FEA166E153B26C10071869E /* InfoPlist.strings */,
+				0FEA1671153B26C10071869E /* main.m */,
+				0FEA1673153B26C10071869E /* Tere maailm!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEA1660153B26C10071869E /* Tere maailm! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEA1679153B26C10071869E /* Build configuration list for PBXNativeTarget "Tere maailm!" */;
+			buildPhases = (
+				0FEA165D153B26C10071869E /* Sources */,
+				0FEA165E153B26C10071869E /* Frameworks */,
+				0FEA165F153B26C10071869E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tere maailm!";
+			productName = "Tere maailm!";
+			productReference = 0FEA1661153B26C10071869E /* Tere maailm!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FEA1658153B26C10071869E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0FEA165B153B26C10071869E /* Build configuration list for PBXProject "Tere maailm!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FEA1656153B26C10071869E;
+			productRefGroup = 0FEA1662153B26C10071869E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEA1660153B26C10071869E /* Tere maailm! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEA165F153B26C10071869E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA1670153B26C10071869E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEA165D153B26C10071869E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA1672153B26C10071869E /* main.m in Sources */,
+				0FEA1676153B26C10071869E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FEA166E153B26C10071869E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FEA166F153B26C10071869E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FEA1677153B26C10071869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FEA1678153B26C10071869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FEA167A153B26C10071869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tere maailm!/Tere maailm!-Prefix.pch";
+				INFOPLIST_FILE = "Tere maailm!/Tere maailm!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FEA167B153B26C10071869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tere maailm!/Tere maailm!-Prefix.pch";
+				INFOPLIST_FILE = "Tere maailm!/Tere maailm!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEA165B153B26C10071869E /* Build configuration list for PBXProject "Tere maailm!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEA1677153B26C10071869E /* Debug */,
+				0FEA1678153B26C10071869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEA1679153B26C10071869E /* Build configuration list for PBXNativeTarget "Tere maailm!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEA167A153B26C10071869E /* Debug */,
+				0FEA167B153B26C10071869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FEA1658153B26C10071869E /* Project object */;
+}
